@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_Addlist"
+        android:title="Add List"
+        android:icon="@drawable/list"
+        app:showAsAction="always"
+        android:onClick="listdata"/>
+
+
+     <item android:id="@+id/item_reminder"
+         android:title="Reminder"
+         app:showAsAction="always"
+         android:icon="@drawable/reminder"
+         android:onClick="reminder"/>
+
+    <item
+        android:id="@+id/item_Save"
+        android:title="Save"
+        android:icon="@drawable/save"
+        app:showAsAction="always"
+       />
+</menu>
